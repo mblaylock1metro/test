@@ -14,7 +14,7 @@ blueEnable = "sudo systemctl enable bluetooth.service"
 startBlue = "sudo systemctl start bluetooth.service"
 runBlue = "rfkill unblock bluetooth"
 
-nic = "apt-get install broadcom-sta-dkms"
+nic = "sudo apt-get install broadcom-sta-dkms"
 
 video = "sudo apt install vlc"
 openVideo = "cvlc v4l2:///dev/video0"
