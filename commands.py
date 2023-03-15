@@ -1,7 +1,7 @@
 import os
 import time
 
-pause = 0.5
+pause = 0.33
 
 first = "sudo apt-get update"
 
