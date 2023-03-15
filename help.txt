@@ -2,3 +2,7 @@ sudo apt install update
 sudo apt install git 
 
 https://www.amirootyet.com/post/how-to-get-wifi-to-work-after/
+
+sudo cp b43/ /lib/firmware 
+sudo modprobe -rv b43 
+sudo modprobe -v b43
