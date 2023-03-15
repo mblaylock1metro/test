@@ -19,9 +19,9 @@ nic = "apt-get install broadcom-sta-dkms"
 video = "sudo apt install vlc"
 openVideo = "cvlc v4l2:///dev/video0"
 
-print(first)
-time.sleep(pause)
-os.system(first)
+# print(first)
+# time.sleep(pause)
+# os.system(first)
 
 print(nic)
 time.sleep(pause)
